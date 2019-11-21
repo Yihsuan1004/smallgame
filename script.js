@@ -7,7 +7,6 @@ let boxImage6 = document.getElementById('box6');
 let boxImage7 = document.getElementById('box7');
 let boxImage8 = document.getElementById('box8');
 let boxImage9 = document.getElementById('box9');
-console.log(location.href);
 
 let bomb = "https://yihsuan1004.github.io/smallgame/img/boom.jpg";
 let money= "https://yihsuan1004.github.io/smallgame/img/money.jpg";
