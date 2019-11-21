@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-size: 12px;
+}
+img{
+    max-width: 60%;
+    height: auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    background:url(img/ironbackground.jpg) no-repeat;
+}
+/*---------------initial setting-------- */ 
+
+
+.box-row{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15em;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 2%;
+}
+
+.box-frame{
+    max-width: 100%;
+    cursor: pointer; 
+    box-shadow: 0px 1px 5px 2px gray;
+}
+
+header{
+    max-width: 100%;
+    height: auto;
+}
+
+.navItem{
+    background-color: gray;
+    height: 5rem;
+    text-align: center;
+}
+
+#topic {
+    margin: auto;
+    padding-top: 1rem;
+    color: whitesmoke;    
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+
+.instruct{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+
+.subtitle{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*-----遊戲規則-----*/
+.rules{
+    position: relative;
+    bottom: 51rem;
+    margin: auto;
+    z-index: -1;
+ }
+
+.instruction-row{
+    margin: 0 auto;
+    width: 460px;
+    height: 150px;
+    text-align: left; 
+    position: relative;
+    bottom: 16rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 微軟正黑體;
+    color:floralwhite;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.number{
+    padding-right: 10px;
+    
+}
+
+/*-----分數欄位和開始按鈕設置-----*/
+#button{
+    cursor: pointer;
+    height:80px;
+    color: aliceblue;
+    background-color: brown;
+    font-size: 2rem;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 1rem 0.3rem gray;
+}
+
+.start{
+    width: 150px;
+    margin: 0 auto;
+}
+
+#highestscore{
+    width: 160px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    font-weight: 900;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+#currentscore{
+    width: 160px;
+    height: 80px;
+    font-family: 微軟正黑體;
+    font-size: 14px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+#highestnum{
+    font-family: sans-serif;
+    font-size: 4rem;
+    position: relative;
+    bottom: 5rem;
+}
+
+#currentnum{
+    font-family: sans-serif;
+    font-size: 4rem;
+    position: relative;
+    bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
